@@ -2,6 +2,14 @@
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
+# About this repo
+This repository of Deep RL source code is related for the first project in the Nanodegree **[Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)**
+
+The content is based on the **Value-Based Methods** section and uses **Deep Q-Learning** 
+The objective is to implement a smart agent to collect bananas in an adaped Unity ML-Agents([github repository](https://github.com/Unity-Technologies/ml-agents)). Section "Project 1" below is inspired in **[this example](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md)**
+
+***
+
 # Project 1: Navigation
 
 ### Introduction
@@ -53,3 +61,13 @@ You need only select the environment that matches your operating system:
 Then, place the file in the `p1_navigation/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Navigation_Pixels.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
 
 (_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
+
+***
+
+# How to use it
+`Navigation.ipynb` uses an agent defined in **[dqn_agent](./dqn_agent.py)**. The agent makes calls **[model](./model.py)** to set up its network.  
+Both **[dqn_agent](./dqn_agent.py)** and **[model](./model.py)** are heavily inspired in **[Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)** Deep Q-Networks contents.
+`Navigation.ipynb` can be used to train the agent and contains more instructions.
+
+# Additional informations
+- [Project Report](./Report.md)
