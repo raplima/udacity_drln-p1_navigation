@@ -3,10 +3,10 @@
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
 
 # About this repo
-This repository of Deep RL source code is related for the first project in the Nanodegree **[Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)**
+This repository of Deep RL source code is related for the first project in **[Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)**.
 
 The content is based on the **Value-Based Methods** section and uses **Deep Q-Learning** 
-The objective is to implement a smart agent to collect bananas in an adaped Unity ML-Agents([github repository](https://github.com/Unity-Technologies/ml-agents)). Section "Project 1" below is inspired in **[this example](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md)**
+The objective is to implement a smart agent to collect bananas in an adaped Unity ML-Agents([github repository](https://github.com/Unity-Technologies/ml-agents)). Section "Project 1" below is inspired in **[this example](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md)**.
 
 ***
 
