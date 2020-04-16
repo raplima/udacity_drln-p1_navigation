@@ -78,7 +78,7 @@ Then, place the file in the `p1_navigation/` folder in the DRLND GitHub reposito
 # How to use it
 `Navigation.ipynb` **[notebook](./Navigation.ipynb)** uses an agent defined in **[dqn_agent](./dqn_agent.py)**. The agent makes calls **[model](./model.py)** to set up its network.  
 Both **[dqn_agent](./dqn_agent.py)** and **[model](./model.py)** are heavily inspired in **[Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)** Deep Q-Networks contents.
-`Navigation.ipynb` can be used to train the agent and contains more instructions.
+`Navigation.ipynb` can be used to train the agent and contains more instructions. [This file](./model.pt) contains the weights of the trained agent.
 
 # Additional informations
 - [Project Report](./Report.md)
