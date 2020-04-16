@@ -6,7 +6,7 @@
 This repository of Deep RL source code is related for the first project in **[Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)**.
 
 The content is based on the **Value-Based Methods** section and uses **Deep Q-Learning** 
-The objective is to implement a smart agent to collect bananas in an adaped Unity ML-Agents([github repository](https://github.com/Unity-Technologies/ml-agents)). Section "Project 1" below is inspired in **[this example](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md)**.
+The objective is to implement a smart agent to collect bananas in an adaped Unity ML-Agents([github repository](https://github.com/Unity-Technologies/ml-agents)). Section "Project 1" below is inspired in **[this example](https://github.com/udacity/deep-reinforcement-learning/blob/master/p1_navigation/README.md)**. Project details were provided in **[Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)**.
 
 ***
 
@@ -45,6 +45,17 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Instructions
 
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+
+### Project details
+For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.
+A reward of **+1** is provided for collecting a yellow banana, and a reward of **-1** is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+
+The state space has **37** dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
+* `0` - move forward.
+* `1` - move backward.
+* `2` - turn left.
+* `3` - turn right.
+The task is episodic, and in order to solve the environment, your agent must get an average score of **+13** over **100** consecutive episodes.
 
 ### (Optional) Challenge: Learning from Pixels
 
