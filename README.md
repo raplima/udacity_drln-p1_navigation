@@ -80,5 +80,5 @@ Then, place the file in the `p1_navigation/` folder in the DRLND GitHub reposito
 Both **[dqn_agent](./dqn_agent.py)** and **[model](./model.py)** are heavily inspired in **[Udacity Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)** Deep Q-Networks contents.
 `Navigation.ipynb` can be used to train the agent and contains more instructions. [This file](./model.pt) contains the weights of the trained agent.
 
-# Additional informations
+# Additional information
 - [Project Report](./Report.md)
